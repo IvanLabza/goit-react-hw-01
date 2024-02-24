@@ -1,6 +1,6 @@
 
 import TransactionRow from "./TransactionRow";
-import "./transaction-history.css";
+import "./TransactionHistory.css";
 
 const TransactionHistory = ({ items }) => {
   return (
