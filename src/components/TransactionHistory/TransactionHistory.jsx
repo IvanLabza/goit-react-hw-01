@@ -1,5 +1,6 @@
 import React from "react";
 import TransactionRow from "./TransactionRow";
+import "./transaction-history.css";
 
 const TransactionHistory = ({ items }) => {
   return (
