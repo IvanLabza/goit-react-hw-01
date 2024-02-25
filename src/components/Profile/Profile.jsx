@@ -1,16 +1,16 @@
 import React from "react";
-import "./Profile.css";
+import css from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className="profile">
-      <img className="profile-img" src={image} alt="Avatar" />
-      <div className="profile-info">
+    <div className={css.profile}>
+      <img className={css.profileImg} src={image} alt="Avatar" />
+      <div className={css.profileInfo}>
         <h2>{name}</h2>
-        <p className="profile-info-name">@{tag}</p>
-        <p className="profile-info-location">{location}</p>
+        <p className={css.profileInfoName}>@{tag}</p>
+        <p className={css.profileInfoLocation}>{location}</p>
       </div>
-      <div className="profile-stats">
+      <div className={css.profileStats}>
         <ul>
           <li>
             <span>Followers</span> {stats.followers}

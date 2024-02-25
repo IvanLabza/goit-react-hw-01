@@ -1,12 +1,4 @@
-.friend {
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.friend-item {
+.friendItem {
   border: 1px solid black;
   padding: 10px;
   border-radius: 10%;
@@ -17,10 +9,10 @@
   align-items: center;
 }
 
-.friend-item .Online {
+.friendItem .online {
   color: green;
 }
 
-.friend-item .Offline {
+.friendItem .offline {
   color: red;
 }

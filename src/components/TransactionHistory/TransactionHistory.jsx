@@ -1,11 +1,10 @@
-
-import TransactionRow from "./TransactionRow";
-import "./TransactionHistory.css";
+import TransactionRow from "./TransactionRow/TransactionRow";
+import styles from "./TransactionHistory.module.css"; // Import the CSS module
 
 const TransactionHistory = ({ items }) => {
   return (
-    <div className="wrapper">
-      <div className="transaction-history">
+    <div className={styles.wrapper}>
+      <div className={styles.transactionHistory}>
         <table>
           <thead>
             <tr>

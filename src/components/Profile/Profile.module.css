@@ -1,3 +1,4 @@
+/* Profile.css */
 .profile {
   max-width: 340px;
   border: 1px solid #000;
@@ -6,14 +7,14 @@
   padding: 10px;
 }
 
-.profile-img {
+.profileImg {
   margin: 0 auto;
   max-width: 85px;
   display: flex;
   border-radius: 50%;
 }
 
-.profile-info {
+.profileInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,25 +23,25 @@
   margin-top: 35px;
 }
 
-.profile-info h2 {}
+.profileInfo h2 {}
 
-.profile-info-name {
+.profileInfoName {
   color: gray;
 }
 
-.profile-info-location {}
+.profileInfoLocation {}
 
-.profile-stats {
+.profileStats {
   margin-top: 35px;
 }
 
-.profile-stats ul {
+.profileStats ul {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.profile-stats li {
+.profileStats li {
   display: flex;
   flex-direction: column;
   justify-content: center;

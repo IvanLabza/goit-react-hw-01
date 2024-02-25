@@ -1,11 +1,13 @@
 import React from "react";
+import css from"./FriendItem.module.css"
 
-const FriendItem = ({ friend }) => {
+
+const FriendItem = ({ friend, }) => {
   return (
-    <li className="friend-item">
+    <li className={css.friendItem}>
       <img src={friend.avatar} alt="Avatar" width="48" />
       <p>{friend.name}</p>
-      <p className={friend.isOnline ? "Online" : "Offline"}>
+      <p className={friend.isOnline ? css.online : css.offline}>
         {friend.isOnline ? "Online" : "Offline"}
       </p>
     </li>
